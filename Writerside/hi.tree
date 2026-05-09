@@ -6,5 +6,12 @@
                  name="Help Instance"
                  start-page="writerside-setup.md">
 
-    <toc-element topic="writerside-setup.md"/>
+    <toc-element topic="writerside-setup.md">
+        <toc-element topic="install-intellij.md"/>
+        <toc-element topic="install-writerside-plugin.md"/>
+        <toc-element topic="create-project.md"/>
+        <toc-element topic="build-preview.md"/>
+        <toc-element topic="push-github.md"/>
+    </toc-element>
+
 </instance-profile>

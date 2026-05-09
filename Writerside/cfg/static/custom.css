@@ -1,6 +1,8 @@
-/* Round the corners of all content images.
-   Uses multiple selectors to cover Writerside's generated HTML structure. */
+/* Images display at natural size; shrink to fit if wider than container; never upscale. */
 img {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto !important;
     border-radius: 16px !important;
     overflow: hidden;
 }
