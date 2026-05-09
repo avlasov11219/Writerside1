@@ -1,0 +1,6 @@
+/* Round the corners of all content images.
+   Uses multiple selectors to cover Writerside's generated HTML structure. */
+img {
+    border-radius: 16px !important;
+    overflow: hidden;
+}

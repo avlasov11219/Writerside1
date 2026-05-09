@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <!-- Writerside embeds custom XML elements in Markdown (tabs, procedure, note, tip, seealso, etc.).
+         IntelliJ's generic HTML linter does not know these are valid Writerside markup. -->
+    <inspection_tool class="HtmlUnknownTag" enabled="false" level="WARNING" enabled_by_default="false" />
+    <!-- Writerside-specific attributes such as border-effect are not in the standard HTML spec. -->
+    <inspection_tool class="HtmlUnknownAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
+    <!-- Writerside resolves image paths from the directory configured in writerside.cfg, not
+         relative to the topic file. IntelliJ's path resolver doesn't follow that convention. -->
+    <inspection_tool class="MarkdownUnresolvedFileReference" enabled="false" level="WARNING" enabled_by_default="false" />
+    <!-- Suppress Markdown table formatting inspection (triggered by content inside table cells). -->
+    <inspection_tool class="MarkdownIncorrectTableFormatting" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
